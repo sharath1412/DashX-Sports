@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHX SPORTS - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo.png" alt="DASHX SPORTS Logo">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="limited-edition.html" class="nav-link">Limited Edition</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-switcher">
+                    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+                    <label for="theme-toggle" class="theme-toggle-label"></label>
+                </div>
+                <a href="checkout.html" class="cart-icon">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    <section class="hero-section">
+        <!-- The Video Background -->
+        <video autoplay loop muted playsinline class="video-background">
+            <source src="videos/hero.mp4" type="video/mp4">
+        </video>
+        <!-- The Dark Overlay (important for text readability) -->
+        <div class="hero-overlay"></div>
+        <!-- The Hero Content (stays on top) -->
+        <div class="hero-content">
+            <h1>DASHX SPORTS</h1>
+            <p class="tagline">Engineered for the Fearless.</p>
+            <a href="products.html" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+        <section class="page-container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <!-- Products will be styled cards -->
+                 <div class="product-card">
+                    <img src="images/psg.png" alt="Paris Saint-Germain 2025/26 Match Home">
+                    <h3>Paris Saint-Germain 2025/26 Match Home</h3>
+                </div>
+                 <div class="product-card">
+                    <img src="images/f50.png" alt="F50 Messi Elite Firm Ground Boots">
+                    <h3>F50 Messi Elite Firm Ground Boots</h3>
+                </div>
+                 <div class="product-card">
+                    <img src="images/jordanadg.png" alt="Jordan ADG 5">
+                    <h3>Jordan ADG 5</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DASHX SPORTS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

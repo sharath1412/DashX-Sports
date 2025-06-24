@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - DASHX SPORTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="DASHX SPORTS Logo"></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="limited-edition.html" class="nav-link">Limited Edition</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-switcher">
+                    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox"><label for="theme-toggle" class="theme-toggle-label"></label>
+                </div>
+                <a href="checkout.html" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <div id="product-detail-container">
+            <div class="product-detail-layout">
+                <div class="product-image-gallery">
+                    <img src="https://placehold.co/600x600?text=Loading..." alt="Product Image" id="product-image">
+                </div>
+                <div class="product-info">
+                    <h1 id="product-name">Loading Product...</h1>
+                    <p class="price" id="product-price">RM0.00</p>
+                    <p id="product-description">Loading product details...</p>
+                    
+                    <div class="selection-controls">
+                        <label for="size-options">Select Size:</label>
+                        <select id="size-options" name="size">
+                            <option>...</option>
+                        </select>
+                        <button class="cta-button" id="detail-add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DASHX SPORTS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

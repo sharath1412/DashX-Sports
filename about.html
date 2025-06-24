@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - DASHX SPORTS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="DASHX SPORTS Logo"></a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="limited-edition.html" class="nav-link">Limited Edition</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-switcher">
+                    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+                    <label for="theme-toggle" class="theme-toggle-label"></label>
+                </div>
+                <a href="checkout.html" class="cart-icon">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <section class="about-story">
+            <h2 class="section-title">Our Story</h2>
+            <p>DASHX SPORTS was born from a simple idea that every athlete, 
+                from the casual jogger to the professional competitor, 
+                deserves gear that elevates their performance. Founded in 2025 by a team of sports enthusiasts and engineers, 
+                we dedicated ourselves to researching and developing innovative products that blend cutting-edge technology with 
+                ergonomic design. We're not just selling sports equipment, we're building a community dedicated to pushing limits 
+                and achieving greatness.</p>
+        </section>
+
+        <section class="team-section">
+            <h2 class="section-title">Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member-card">
+                    <img src="images/sharath.jpg" alt="Sharath Krishnan">
+                    <h3>Sharath Krishnan</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member-card">
+                    <img src="images/roshan.jpg" alt="Deepak Roshan">
+                    <h3>Deepak Roshan</h3>
+                    <p>Head of Product Design</p>
+                </div>
+                <div class="team-member-card">
+                    <img src="images/avi.jpg" alt="Aveenashan">
+                    <h3>Aveenashan</h3>
+                    <p>Lead Fitness Coach</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="newsletter">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DASHX SPORTS. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
